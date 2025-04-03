@@ -78,7 +78,7 @@
         <tr>
           <th>Nome</th>
           <th>Matéria</th>
-          <th colspan ="2">Notas</th>
+          <th colspan="2">Notas</th>
         </tr>
       </thead>
       <tbody>
@@ -89,27 +89,26 @@
           <td>80</td>
         </tr>
         <tr>
-          
           <td>WEB</td>
           <td>50</td>
           <td>80</td>
         </tr>
       </tbody>
     </table>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
 
     <h1>Lista</h1>
     <ul>
-        <li>Fome</li>
-        <li>Fome</li>
-        <li>Fome</li>
+      <li>Fome</li>
+      <li>Fome</li>
+      <li>Fome</li>
     </ul>
     <ol>
-        <li>P</li>
-        <li>P</li>
-        <li>P</li>
+      <li>P</li>
+      <li>P</li>
+      <li>P</li>
     </ol>
     <ol>
       <li>o</li>
@@ -117,5 +116,71 @@
       <li>o</li>
     </ol>
 
+    <h1>Aula 31/03</h1>
+
+    <form action="">
+      <label for="">Nome</label>
+      <input type="text" name="nome" id="Nome" />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <br />
+      <label for="data">Data</label>
+      <input type="date" name="data" id="data" />
+      <br />
+      <br />
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" />
+      <br />
+      <br />
+      <label for="numero">Número</label>
+      <input type="number" name="numero" id="numero" />
+      <br />
+      <br />
+      <label for="arquivo">Arquivo</label>
+      <input type="file" name="arquivo" id="arquivo" />
+      <br />
+      <br />
+      <label for="telefone">Telefone</label>
+      <input type="tel" name="telefone" id="telefone" />
+      <br />
+      <br />
+      <label for="curso">Curso</label>
+      <select name="curso" id="curso">
+        <option value="">Selecione o curso</option>
+        <option value="ADS" selected>
+          Análise e Desenvolvimento de Sistemas
+        </option>
+        <option value="PED">Pedagogia</option>
+        <option value="AGRO">Agronomia</option>
+      </select>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Sexo:</legend>
+        <label for="sexo">Masculino</label>
+        <input type="radio" checked name="sexo" value="Masculino" />
+        <label for="sexo">Femenino</label>
+        <input type="radio" name="sexo" value="Femenino" />
+        <label for="sexo">Não Declarado</label>
+        <input type="radio" name="sexo" value="Não Declarado" />
+      </fieldset>
+      <fieldset>
+        <legend>Esporte</legend>
+        <label for="esporte">Futebol</label>
+        <input type="checkbox" checked name="esporte" value="Futebol">
+        <label for="esporte">Vôlei</label>
+        <input type="checkbox" name="esporte" value="Vôlei">
+        <label for="esporte">Basquete</label>
+        <input type="checkbox" name="esporte" value="Basquete">
+        <label for="esporte">Tênis</label>
+        <input type="checkbox" name="esporte" value="Tênis">
+      </fieldset>
+      <br />
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
   </body>
 </html>
