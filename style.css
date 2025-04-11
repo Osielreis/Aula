@@ -1,0 +1,36 @@
+h1 {
+  font-size: 30;
+}
+
+#teste {
+  color: rgba(49, 179, 179, 0.699);
+}
+
+.red {
+  color: red;
+}
+.texto-principal {
+  font-size: 20;
+  color: white;
+  background-color: indigo;
+  text-align: center;
+}
+
+.container{
+    border: 2px dotted green;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+
+@font-face {
+  font-family:WinkyRough;
+  src: url(./fonts/WinkyRough-VariableFont_wght.ttf);
+}*{
+  font-family: WinkyRough;
+}
+

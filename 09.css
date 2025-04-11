@@ -1,0 +1,72 @@
+.teste {
+  background-color: blue;
+  color: white;
+  border: 2px #ff0000 solid;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  max-width: 200 px;
+}
+
+ul li {
+  display: block;
+  width: 120px;
+  text-align: center;
+  border: 2px red solid;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.simples {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+  margin: 20px auto;
+}
+
+.box-sizing {
+  display: inline-block;
+  width: 24%;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px black solid;
+  box-sizing: border-box;
+}
+
+.fix {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
+.relative {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  color: white;
+}
+.absolute {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 150px;
+  height: 100px;
+  background-color: gray;
+  color: white;
+}
+
+.sticky{
+  position: sticky;
+  background-color: green;
+  color: white;
+  top: 0;
+
+}
