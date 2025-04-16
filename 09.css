@@ -63,10 +63,19 @@ ul li {
   color: white;
 }
 
-.sticky{
+.sticky {
   position: sticky;
   background-color: green;
   color: white;
   top: 0;
-
 }
+.container-img {
+  background-color: purple;
+  color: white;
+  overflow: auto;
+  img{
+    float: left;
+  }
+  
+}
+
